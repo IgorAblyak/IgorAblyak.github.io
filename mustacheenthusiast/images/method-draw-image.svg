@@ -1,0 +1,33 @@
+<svg width="239" height="57" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+ <metadata id="metadata49">image/svg+xml</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="59" width="241" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="matrix(0.28409091,0,0,0.28409091,0,-107.21591) " id="XMLID_80_">
+   <path fill="#41c7f1" d="m78.700013,488.820019l-72.7,-72.7c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l72.7,72.7c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_35_"/>
+   <path fill="#a784bc" d="m151.000013,561.220019l-72.7,-72.7c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l72.7,72.7c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_34_"/>
+   <path fill="#4279bd" d="m78.700013,488.820019l-46.9,-46.9c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l46.9,46.9c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_33_"/>
+   <path fill="#705ea9" d="m122.400013,532.620019l-44.1,-44.1c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l43.7,43.7c6,6 6,15.5 0,21.5l-0.4,0.4c-5.9,6 -15.5,6 -21.1,0.4z" id="XMLID_32_"/>
+   <path fill="#4a54a4" d="m109.000013,519.220019l-30.7,-30.7c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l30.7,30.7c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_31_"/>
+   <path fill="#d41a64" d="m151.000013,394.720019l-144.7,144.6c-6,6 -6,15.5 0,21.5l0.4,0.4c6,6 15.5,6 21.5,0l144.6,-144.6c6,-6 6,-15.5 0,-21.5l-0.4,-0.4c-5.9,-6 -15.4,-6 -21.4,0z" id="XMLID_30_"/>
+   <path fill="#bc1e67" d="m119.900013,425.720019l-93.8,93.8c-6,6 -6,15.5 0,21.5l0.4,0.4c6,6 15.5,6 21.5,0l93.8,-93.8c6,-6 6,-15.5 0,-21.5l-0.4,-0.4c-6,-5.6 -15.8,-5.6 -21.5,0z" id="XMLID_29_"/>
+   <g id="XMLID_81_">
+    <g id="XMLID_59_">
+     <path fill="#010101" d="m104.100013,441.620019l-64.2,64.2c-6,6 -6,15.5 0,21.5l0.4,0.4c6,6 15.5,6 21.5,0l64.2,-64.2c6,-6 6,-15.5 0,-21.5l-0.4,-0.4c-6,-6 -15.5,-6 -21.5,0z" id="XMLID_61_"/>
+     <path fill="#010101" d="m100.200013,510.420019l-55.7,-55.7c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l55.7,55.7c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_60_"/>
+    </g>
+    <g id="XMLID_56_">
+     <path fill="#030305" d="m104.100013,441.620019l-64.2,64.2c-6,6 -6,15.5 0,21.5l0.4,0.4c6,6 15.5,6 21.5,0l64.2,-64.2c6,-6 6,-15.5 0,-21.5l-0.4,-0.4c-6,-6 -15.5,-6 -21.5,0z" id="XMLID_58_"/>
+     <path fill="#030305" d="m100.200013,510.420019l-55.7,-55.7c-6,-6 -6,-15.5 0,-21.5l0.4,-0.4c6,-6 15.5,-6 21.5,0l55.7,55.7c6,6 6,15.5 0,21.5l-0.4,0.4c-6,6 -15.5,6 -21.5,0z" id="XMLID_57_"/>
+    </g>
+   </g>
+  </g>
+  <text stroke="#000" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="38" x="265.5" stroke-width="0" fill="#000000"/>
+  <line stroke-width="5" y1="28.5" y2="28.5" stroke-linecap="null" stroke-linejoin="null" id="svg_3" x2="82.307758" x1="61.69223" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+  <text font-weight="normal" font-style="normal" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="69" id="svg_4" y="52" x="92.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">PRO</text>
+ </g>
+</svg>
