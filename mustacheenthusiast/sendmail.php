@@ -23,7 +23,7 @@ if ($_FILES['file']) {
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заказ с X-PRO';
-$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->Body    = '<p><strong>От кого:</strong> ".$username."</p>\r\n <p><strong>От кого:</strong> ".$usermail."</p>\r\n <p><strong>От кого:</strong> ".$usertel."</p>\r\n <p><strong>Сообщение:</strong><div style = border: 2px solid gray; width: 300px;> ".$usermessage."</div></p>\r\n';
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
