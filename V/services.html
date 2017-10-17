@@ -84,7 +84,7 @@
   </footer>
   <script>
     var navItemServices = document.querySelectorAll(".nav-image-services__item");
-    var unvisibleP = document.querySelectorAll(".box1");
+    var unvisibleP = document.querySelectorAll(".nav-image-services__unvisible-text");
 
     for( var i = 0; i < navItemServices.length; i++) {
     navItemServices[i].addEventListener("mouseenter", function(event){
@@ -93,8 +93,12 @@
       bs.style.top="20%";
       var unvisibleLink = event.target.children[0].children[1];
       unvisibleLink.classList.add("visible-text");
-      var unvisibleP = event.target.children[1];
-      unvisibleP.classList.add("box2");
+      unvisibleLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        var unvisibleP = event.target.parentElement.nextElementSibling;
+        unvisibleP.classList.add("box2");
+      });
+      
       });
     navItemServices[i].addEventListener("mouseleave", function (event) {
       var bs = event.target.children[0].children[0];
