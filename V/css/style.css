@@ -46,13 +46,16 @@ img {
   max-width: 100%;
 }
 
-.center-wrap {max-width: 1200px; margin:0 auto;}
+.center-wrap {
+    max-width: 1200px;
+    margin:0 auto;
+}
 
 .main-header {
     margin: 0 auto;
     padding: 44px 0 50px;
     text-align: center;
-    width: 960px;
+    max-width: 960px;
 }
 .main-header .logo {
     display: block;
@@ -402,6 +405,10 @@ img {
     overflow: hidden;
 }
 
+.nav-image-services__item div:nth(2) {
+    background: #A784BC url(../images/landing-page-design.jpg) no-repeat;
+}
+
 .nav-image-services__unvisible-text {
     position: absolute;
     top: 50%;
@@ -440,7 +447,7 @@ img {
 .order form {
     margin: 0 auto;
     padding: 24px 0 0;
-    width: 620px;
+    max-width: 620px;
 }
 
 .order form input, .order form textarea {
@@ -453,7 +460,7 @@ img {
     padding: 20px 10px;
     text-align: center;
     text-transform: uppercase;
-    width: 596px;
+    width: 100%;
 }
 
 .order form input:focus, .order form textarea:focus {
