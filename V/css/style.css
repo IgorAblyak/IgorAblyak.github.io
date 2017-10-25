@@ -405,8 +405,14 @@ img {
     overflow: hidden;
 }
 
-.nav-image-services__item div:nth(2) {
+.nav-image-services__item:nth-child(2) div {
     background: #A784BC url(../images/landing-page-design.jpg) no-repeat;
+    background-size: 100% auto;
+}
+
+.nav-image-services__item:nth-child(3) div {
+    background: #A784BC url(../images/tech-support.jpg) no-repeat;
+    background-size: 100% auto;
 }
 
 .nav-image-services__unvisible-text {
