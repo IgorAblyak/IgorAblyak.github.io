@@ -1,6 +1,7 @@
-/* Website Template by freewebsitetemplates.com */
 body {
-	min-width: 0;
+  min-width: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .main-header {
 	padding: 20px 0;
@@ -42,7 +43,7 @@ body {
 	border: 0;
 }
 .navigation-list li a {
-	background: rgba(11, 163, 156, 0.9);
+	background: linear-gradient(to right, #d41a64, #A784BC);
 	color: #fff;
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +71,7 @@ body {
 	text-indent: 15px;
 }
 .main-header ul li span {
-	background: rgba(11, 163, 156, 0.9) url(../images/mobile-expand.png) no-repeat 0 0;
+	background: linear-gradient(to right, #d41a64, #A784BC); url(../images/mobile-expand.png) no-repeat 0 0;
 	border-left: 1px solid #fff;
 	display: block;
 	height: 49px;
@@ -82,6 +83,27 @@ body {
 #body {
 	width: 100%;
 }
+
+.content-txt {
+  position: static;
+  max-width: 35%;
+  text-align: center;
+}
+
+.content-txt p {
+	display: none;
+}
+
+.btn {
+	margin-top: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.nav-image {
+  margin-top: 20px;
+}
+
 #body h1 {
 	display: block;
 	font-size: 20px;
