@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>G-DERM PROFESSIONAL</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 767px)">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="header-top clearfix">
+          <h1 class="logo">
+            <img src="img/logo.png" alt="Логотип">
+            <span>Ремодулятор матрикса кожи</span>
+          </h1>
+          <div class="contacts">
+            <a href="#" class="user-block">Кабинет косметолога</a>
+            <span class="phone">+7 (812) 313-00-90</span><br>
+            <a href="#" class="feedback">Написать нам</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <nav class="main-menu">
+          <div class="mobile-menu">
+            <span class="line"></span>
+          </div>
+            <ul class="menu-block">
+                <li><a href="index.html">О марке</a></li>
+                <li><a href="#">Академия</a></li>
+                <li><a href="#">Наша продукция</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">Профессиональная серия</a></li>
+                    <li><a href="#">Домашняя серия</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Где купить</a></li>
+                <li><a href="#">Сотрудничество</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <form action="#" method="post" class="search">
+              <input type="search" name="" class="search-input" />
+              <input type="submit" name="" value="" class="search-submit" />
+            </form>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content-mobile">
+        <h2>Философия<br>G-Derm</h2>
+        <p>Замедляя внутренние источники старения, мы помогаем<br>женщинам выглядеть, чувствовать и жить молодо.</p>
+        <a href="#" class="btn">Подробнее</a>
+      </div>
+      <!-- Slider -->
+      <div class="slider-cut">
+        <div class="slider-content">
+          <div class="slider-item">
+            <div class="slider-item-content">
+              <div class="container">
+                <div class="content-txt">
+                  <h2>Философия G-Derm</h2>
+                  <p>Замедляя внутренние источники старения, мы помогаем<br>женщинам выглядеть, чувствовать и жить молодо.</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="image">
+              <img src="img/slider-image.jpg" alt="G-DERM">
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="slider-item-content">
+              <div class="container">
+                <div class="content-txt">
+                  <h2>Философия G-Derm</h2>
+                  <p>Замедляя внутренние источники старения, мы помогаем<br>женщинам выглядеть, чувствовать и жить молодо.</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="image">
+              <img src="img/slider-image.jpg" alt="G-DERM">
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="slider-item-content">
+              <div class="container">
+                <div class="content-txt">
+                  <h2>Философия G-Derm</h2>
+                  <p>Замедляя внутренние источники старения, мы помогаем<br>женщинам выглядеть, чувствовать и жить молодо.</p>
+                  <a href="#" class="btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="image">
+              <img src="img/slider-image.jpg" alt="G-DERM">
+            </div>
+          </div>
+        </div>
+        <div class="switch">
+          <ul>
+            <li class="switch-item" data-pos="0"></li>
+            <li class="switch-item" data-pos="-100%"></li>
+            <li class="switch-item" data-pos="-200%"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <section class="series pro">
+          <h3>Профессиональная серия</h3>
+          <p>Только для использования профессиональными<br>косметологами после получения сертификата<br>в нашем учебном центре.</p>
+          <a href="#">Перейти в каталог</a>
+          <img src="img/bg-bottle.png" alt="Жидкость">
+        </section>
+        <section class="series home">
+          <h3>Домашняя серия</h3>
+          <p>Те же препараты, но в меньшей концентрации.<br>Для использования дома в перерывах между<br>салонными процедурами.</p>
+          <a href="#">Перейти в каталог</a>
+          <img src="img/bg-tube.png" alt="Мазь">
+        </section>
+      </div>
+    </main>
+    <!--[if IE 9]><script type="text/javascript" src="https://cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script><![endif]-->
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script>
+      var mobileMenu = document.querySelector (".mobile-menu");
+      var mainMenu = document.querySelector (".menu-block");
+
+      mobileMenu.addEventListener ("click", function(event){
+        event.preventDefault();
+        mainMenu.classList.toggle ("show");
+      });
+    </script>
+  </body>
+</html>
