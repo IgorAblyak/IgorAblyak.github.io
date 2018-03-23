@@ -138,7 +138,6 @@ img {
 .slider-cut {
   position: relative;
   max-width: 100%;
-  /*height: auto;*/
   overflow: hidden;
 }
 
@@ -146,7 +145,6 @@ img {
   position: relative;
   left: 0;
   width: 500%;
-  /*height: auto;*/
   transition: left .5s ease-in-out;
 }
 
@@ -155,7 +153,6 @@ img {
   z-index: 1;
   float: left;
   width: 20%;
-  /*height: auto;*/
   overflow: hidden;
 }
 
@@ -487,7 +484,6 @@ img {
     display: block;
     margin-top: 20px;
     padding: 20px 46px;
-    /* width: auto; */
     border: none;
 }
 
@@ -561,35 +557,28 @@ img {
 }
 
 .main-footer {
-    /* position: absolute; */
-    bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     width: 100%;
     background: linear-gradient(to left, #d41a64, #A784BC);
-    padding: 36px 0 42px;
+    padding: 36px 0 36px;
 }
-.main-footer div {
-    overflow: hidden;
-    padding: 0;
-    width: 100%;
-}
-.main-footer div p {
+
+.main-footer p {
     color: #fff;
-    float: left;
     line-height: 44px;
-    margin: 0 0 0 10px;
+    margin-left: 10px;
     padding: 0;
 }
 .social {
     display: block;
-    float: right;
-    margin: 0;
+    margin-right: 10px;
     overflow: hidden;
     padding: 0;
-    width: 256px;
 }
 .social li {
-    display: block;
-    float: left;
+    display: inline-block;
     list-style: none;
     margin: 0 10px;
     padding: 0;
