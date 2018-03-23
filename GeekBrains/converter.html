@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Конвертер валют</title>
+</head>
+<body>
+  <script>
+    var currency = prompt("Введите название валюты: ");
+    if (currency == "доллар") {
+      var rate = parseInt(prompt("Введите текущий курс в рублях: "));
+      var sum = parseInt(prompt("Введите сумму в рублях, которую хотите обменять: "));
+      var totalDollar = sum / rate;
+      alert("Итоговая сумма: " + totalDollar + " долларов");
+    }
+    else if (currency == "евро") {
+      var rate = parseInt(prompt("Введите текущий курс в рублях: "));
+      var sum = parseInt(prompt("Введите сумму в рублях, которую хотите обменять: "));
+      var totalEuro = sum / rate;
+      alert("Итоговая сумма: " + totalEuro + " евро");
+    }
+    else {
+      alert("Такая валюта не поддерживается");
+    }
+  </script>
+</body>
+</html>

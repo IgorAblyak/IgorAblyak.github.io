@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Банковский вклад</title>
+  </head>
+  <body>
+    <script>
+      var sum = 0;
+      var sum_years = 0;
+      do {
+        var deposit = prompt("Введите сумму депозита: ");
+        var percent = prompt("Введите годовой процент: ");
+        var time = prompt("Введите срок вклада в годах: ")
+        if (deposit <= 0 || percent <= 0) {
+          alert("Требуется вводить число больше нуля!");
+        }
+      } while (deposit <=0 || percent <= 0);
+      deposit = parseInt(deposit);
+      percent = parseInt(percent);
+      for (var i = 1; i <= time; i++) {
+        sum = ((deposit * percent) / 100) + deposit;
+        deposit = sum;
+        sum_years = sum_years + sum;
+        document.write("<em>Сумма вклада за " + i + " год с учетом процентов = </em>" + sum.toFixed(2) + "<p>");
+      }
+      document.write("<b>Сумма вклада за " + time + " лет" + " = </b>" + sum_years.toFixed(2));
+    </script>
+  </body>
+</html>
