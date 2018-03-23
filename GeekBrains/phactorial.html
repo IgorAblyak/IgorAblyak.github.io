@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Факториал</title>
+</head>
+<body>
+  <script>
+    var sum = 1;
+    function factorial(n) {
+      for (var i = 1; i <= n; i++) {
+        sum = sum * i;
+        }
+        return sum;
+    }
+    var n = prompt("Введите число: ");
+    alert("Факториал = " + factorial(n) );
+  </script>
+</body>
+</html>
